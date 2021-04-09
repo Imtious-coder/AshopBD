@@ -25,7 +25,7 @@ const Review = () => {
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart);
 
-        fetch('http://localhost:3001/productsByKey', {
+        fetch('https://stark-plateau-41838.herokuapp.com/productsByKey', {
             method:'POST',
             headers:{
                 'Content-Type':'application/json'

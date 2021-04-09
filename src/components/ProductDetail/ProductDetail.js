@@ -8,7 +8,7 @@ const ProductDetail = () => {
 
     // Api here...
     useEffect(() => {
-        fetch('http://localhost:3001/product/' + productKey)
+        fetch('https://stark-plateau-41838.herokuapp.com/product/' + productKey)
             .then(res => res.json())
             .then(data => setProduct(data));
     }, [productKey])
