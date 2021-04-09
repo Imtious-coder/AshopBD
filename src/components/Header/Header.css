@@ -1,0 +1,41 @@
+#Name{
+    padding: 5px;
+}
+.Highlight{
+    color: red;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.Destination{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+}
+.Destination:hover{
+    text-decoration: none;
+    color: red;
+}
+.Destination:active{
+    color: blueviolet;
+}
+.header{
+    background-color: antiquewhite;
+    line-height: 40px;
+    font-size: 20px;
+}
+#SignOutButton{
+    width: 120px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border: 1.5px solid yellow;
+    border-radius: 25px;
+}
+#SignOutButton:hover{
+    background-color: rgb(53, 158, 4);
+}
