@@ -12,7 +12,7 @@ const Header = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                    <Link className="Name" to="/shop"><h1 id="Name"><span className="Highlight">A</span> shop <span className="Highlight">BD</span></h1></Link>
+                        <Link className="Name" to="/shop"><h1 id="Name"><span className="Highlight">A</span> shop <span className="Highlight">BD</span></h1></Link>
                     </div>
                     <div className="col-md-1"></div>
                     <div className="col-md-7">

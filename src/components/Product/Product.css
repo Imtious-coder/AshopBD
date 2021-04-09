@@ -1,19 +1,46 @@
 .product{
     display: flex;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid white;
     margin-bottom: 5px;
     margin-right: 10px;
     padding-bottom: 5px;
 }
+.ImageBG{
+    background-color: rgb(255, 237, 234);
+    border: 1px solid rgb(255, 216, 143);
+    border-radius: 10px;
+}
+.Images{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    border-radius: 10px;
+}
 .product-name{
-    color: blue;
-    font-weight: 400;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.product-name:hover{
+    text-decoration: none;
+    color: red;
+}
+.Product-details p{
+    color: rgb(0, 26, 255);
+}
+.Product-details small{
+    color: red;
+}
+.Product-details h5{
+    color: green;
 }
 .main-button{
-    background-color: goldenrod;
+    background-color: green;
     width: 150px;
+    color: white;
     height: 30px;
-    border: 1px solid darkgray;
+    border: 1px solid yellowgreen;
     border-radius: 5px;
     cursor: pointer;
 }

@@ -31,6 +31,7 @@
     width: 120px;
     margin-top: 10px;
     color: white;
+    outline: none;
     font-weight: bold;
     background-color: green;
     border: 1.5px solid yellow;
