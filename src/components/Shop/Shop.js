@@ -53,24 +53,24 @@ const Shop = () => {
     return (
         <div className="BG">
             <div className="container twin-container">
-            <div className="product-container">
-                {
-                    products.map(pd => <Product
-                        key={pd.key}
-                        showAddToCart={true}
-                        handleAddProduct={handleAddProduct}
-                        product={pd}
-                    ></Product>)
-                }
+                <div className="product-container">
+                    {
+                        products.map(pd => <Product
+                            key={pd.key}
+                            showAddToCart={true}
+                            handleAddProduct={handleAddProduct}
+                            product={pd}
+                        ></Product>)
+                    }
+                </div>
+                <div className="cart-container">
+                    <Cart cart={cart}>
+                        <Link to="/review">
+                            <button className="main-button">Review Order</button>
+                        </Link>
+                    </Cart>
+                </div>
             </div>
-            <div className="cart-container">
-                <Cart cart={cart}>
-                    <Link to="/review">
-                        <button className="main-button">Review Order</button>
-                    </Link>
-                </Cart>
-            </div>
-        </div>
         </div>
     );
 };
