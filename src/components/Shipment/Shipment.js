@@ -27,7 +27,7 @@ const Shipment = () => {
       <input name="phone" ref={register({ required: true })}  placeholder="Your Phone Number"/>
       {errors.phone && <span className="error">Phone Number is required</span>}
       
-      <input type="submit" />
+      <input className="btn btn-success" type="submit" />
     </form>
   );
 };

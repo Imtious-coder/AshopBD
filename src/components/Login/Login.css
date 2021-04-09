@@ -1,0 +1,23 @@
+.Google{
+    width: 80%;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    border-radius: 25px;
+    background-color: red;
+}
+.InputFields{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding-left: 10px;
+    outline: none;
+    background-color: rgb(226, 255, 173);
+    border: 1px solid red;
+}

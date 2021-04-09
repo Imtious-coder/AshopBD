@@ -53,7 +53,15 @@ const Shop = () => {
     return (
         <div className="BG">
             <div className="container twin-container">
+                {/* Products here... */}
                 <div className="product-container">
+                    {/* This is the spiner.. */}
+                    {
+                        products.length === 0 && <div class="spinner-border text-success Spiner" role="status">
+                            <span class="visually-hidden"></span>
+                        </div>
+                    }
+                    {/* Cards info here... */}
                     {
                         products.map(pd => <Product
                             key={pd.key}
@@ -63,6 +71,7 @@ const Shop = () => {
                         ></Product>)
                     }
                 </div>
+                {/* Cart side here... */}
                 <div className="cart-container">
                     <Cart cart={cart}>
                         <Link to="/review">

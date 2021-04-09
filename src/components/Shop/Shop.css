@@ -1,5 +1,6 @@
 .BG{
     background-color: rgb(209, 209, 209);
+    padding-bottom: 130px;
 }
 .twin-container{
     display: flex;
@@ -9,4 +10,9 @@
     margin-left: 20px;
     margin-right: 5px;
     border-right: 1px solid white;
+}
+.Spiner{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 300px;
 }

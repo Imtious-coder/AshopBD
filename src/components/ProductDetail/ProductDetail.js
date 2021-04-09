@@ -3,15 +3,16 @@ import { useParams } from 'react-router-dom';
 import Product from '../Product/Product';
 
 const ProductDetail = () => {
-    const {productKey} = useParams();
+    const { productKey } = useParams();
     const [product, setProduct] = useState({})
 
-    useEffect(()=> {
-        fetch('http://localhost:3001/product/'+ productKey)
-        .then(res => res.json())
-        .then(data => setProduct(data));
+    // Api here...
+    useEffect(() => {
+        fetch('http://localhost:3001/product/' + productKey)
+            .then(res => res.json())
+            .then(data => setProduct(data));
     }, [productKey])
-    
+
     return (
         <div>
             <h1>Your Product Details.</h1>
